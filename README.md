@@ -96,9 +96,9 @@ The Reviews component consists of a rating summary, a reviews list, a sortable d
 *   Jest-environment-jsdom
 *   Nodemon
 *   Testing-library:
-   *   Dom
-   *   React
-   *   User-event
+      *   Dom
+      *   React
+      *   User-event
 *   Webpack
 
 **Dependencies:**
