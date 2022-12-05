@@ -18,7 +18,7 @@ This project is designed to emulate a professional development project wherein c
 * Installation Guide
 * Shared Functions
 * Q&A Widget
-
+![this](https://media.giphy.com/media/jyIQQI9e8aeeVsW26L/giphy.gif)
 **<span style="text-decoration:underline;">Server: </span>**
 
 The server is located in the ‘server’ directory in the file ‘index.js’.  Its functionality is streamlined making use of only a few middleware, most notably node’s built-in file compression. The remainder of the file is for various routes, exclusively ‘get’, ‘post’, and ‘put’ requests, that handle external calls to the Atelier API.
