@@ -12,6 +12,7 @@ This project is designed to emulate a professional development project wherein c
 * App
 * Description and functionality:
     * Product View
+    <iframe src="https://giphy.com/embed/gPFA1CdXkhrIBzQsRi" width="480" height="350" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/gPFA1CdXkhrIBzQsRi">via GIPHY</a></p>
     * Questions and Answers
     * Reviews
 * Installation Guide
