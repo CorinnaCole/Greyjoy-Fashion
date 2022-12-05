@@ -62,12 +62,11 @@ The main features of this component are the questions feed, a search bar and the
 
 The Reviews component consists of a rating summary, a reviews list, a sortable dropdown indicating the current sorting specifications, and two buttons to allow users to either add a new review, or view more reviews in the list. The file ‘Reviews’ component serves as the parent component which displays the following components and their respective functionalities:
 
-
-
-
-
 * Summary: This component houses the breakdown of review meta data retrieved from the API. It consists of an average star rating component, a breakdown of review percentages by star rating, and a sliding scale to indicate overall customer satisfaction with any given characteristics of the product. There is additive filtering functionality on the star rating bars that allows users to filter the list by star rating.
 * Reviews List: This component renders a list of reviews received from the API. Each individual list entry contains multiple pieces of data and positions them on the entry in a professional, readable format.
+
+![Review Summary and Rankings](https://media.giphy.com/media/2n8n8c9pUNyz2mltmZ/giphy.gif)
+
 * More Reviews and Add a Review: These button components live at the bottom of the reviews list. Clicking on More Reviews renders two additional reviews to the list. Clicking on Add a Review brings up a modal window with a form to complete for writing your own review. This form includes rating the product and its specific characteristics, as well as text inputs and a button to allow the user to upload photos from their computer or from the web.
 
 ![Review Modal](https://media.giphy.com/media/jyIQQI9e8aeeVsW26L/giphy.gif)
