@@ -2,6 +2,9 @@
 
 **<span style="text-decoration:underline;">Overview:</span>**
 
+![Product Overview](https://media.giphy.com/media/gPFA1CdXkhrIBzQsRi/giphy.gif)
+
+
 This project is designed to emulate a professional development project wherein clients have requested a functional mock-up of a new e-commerce product landing page. The page is comprised of several core functions, including product images and the cart, a searchable Q&A section and finally, a sortable reviews component. For efficiency, our project team worked collectively on shared functionality, such as the server and App component, and divided further work into each of the respective areas of functionality.
 
 **<span style="text-decoration:underline;"> Table of Contents:</span>**
@@ -18,7 +21,7 @@ This project is designed to emulate a professional development project wherein c
 * Installation Guide
 * Shared Functions
 * Q&A Widget
-![this](https://media.giphy.com/media/jyIQQI9e8aeeVsW26L/giphy.gif)
+
 **<span style="text-decoration:underline;">Server: </span>**
 
 The server is located in the ‘server’ directory in the file ‘index.js’.  Its functionality is streamlined making use of only a few middleware, most notably node’s built-in file compression. The remainder of the file is for various routes, exclusively ‘get’, ‘post’, and ‘put’ requests, that handle external calls to the Atelier API.
@@ -54,7 +57,7 @@ The Reviews component consists of a rating summary, a reviews list, a sortable d
 
 
 
-
+![Review Modal](https://media.giphy.com/media/jyIQQI9e8aeeVsW26L/giphy.gif)
 
 * Summary: This component houses the breakdown of review meta data retrieved from the API. It consists of an average star rating component, a breakdown of review percentages by star rating, and a sliding scale to indicate overall customer satisfaction with any given characteristics of the product. There is additive filtering functionality on the star rating bars that allows users to filter the list by star rating.
 * Reviews List: This component renders a list of reviews received from the API. Each individual list entry contains multiple pieces of data and positions them on the entry in a professional, readable format.
