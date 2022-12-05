@@ -15,7 +15,6 @@ This project is designed to emulate a professional development project wherein c
 * App
 * Description and functionality:
     * Product View
-    <iframe src="https://giphy.com/embed/gPFA1CdXkhrIBzQsRi" width="480" height="350" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/gPFA1CdXkhrIBzQsRi">via GIPHY</a></p>
     * Questions and Answers
     * Reviews
 * Installation Guide
@@ -41,10 +40,16 @@ A sibling component to App.jsx, this renders the ‘House Greyjoy’ name, logo 
 * The Product Overview component is contained in the View directory located within ‘client/src/components’. The file ‘View’ serves as the parent component which displays the following components and their respective functionalities:
 * Product Image: Displays the main image. This component also has the child components of Carousel, which is visible as the vertical image gallery on the left side of the main image, and ExpandedPhoto, which is a modal that displays a larger, zoomable image if the user clicks the main image.
 * Description: Located beneath the main image, this component contains the product tag line and description as well as social media share icons.
+
+![Product Overview](https://media.giphy.com/media/gPFA1CdXkhrIBzQsRi/giphy.gif)
+
 * StyleView: This is a styled component to group the following sub-components:
     * ProductName: This displays the product name, category, overall star rating, price and/or sales price.
     * SelectedStyle: This component is conditionally rendered in the event that a product has multiple designs/colors. It is visible as a series of circular images with the associated style names.
     * ItemSelection: This component is the cart functionality. It allows users to select a particular style of a product and choose amongst the sizes and associated quantities of each item and add it to their cart. The majority of the cart functionality is stored within the View component in the function “addToCart”.
+
+![Product Cart](https://media.giphy.com/media/FWSL0wWRkwY4OTkXxk/giphy.gif)
+
 * Also within the View directory is a subdirectory ‘Styled’. This directory contains all of the styled components related to the View components.
 
 **<span style="text-decoration:underline;">Q&A Widget:</span>**
