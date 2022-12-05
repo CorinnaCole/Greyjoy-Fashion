@@ -56,6 +56,8 @@ A sibling component to App.jsx, this renders the ‘House Greyjoy’ name, logo 
 
 The main features of this component are the questions feed, a search bar and the add questions or add answers modals. Each question in the questions feed has its own answer feed. Both feeds have an initial load count of 2. The questions feed is also currently just displaying answered questions as per the business docs. The search bar starts searching once the term is 3 characters long, and searches for matching question or answer text, displaying all answers if the question name contains the term but only the answers matching the search when only answer body text matches. The add questions modal is almost useless without postman or some other way to see data, since only answered questions will display. The add answers modal will reperform the get request and load the answer into the feed on submission.
 
+![Questions and Answers](https://media.giphy.com/media/ibGRFgdcESJG4nIZWj/giphy.gif)
+
 **<span style="text-decoration:underline;">Reviews:</span>**
 
 The Reviews component consists of a rating summary, a reviews list, a sortable dropdown indicating the current sorting specifications, and two buttons to allow users to either add a new review, or view more reviews in the list. The file ‘Reviews’ component serves as the parent component which displays the following components and their respective functionalities:
