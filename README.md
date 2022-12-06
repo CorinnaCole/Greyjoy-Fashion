@@ -41,8 +41,6 @@ A sibling component to App.jsx, this renders the ‘House Greyjoy’ name, logo 
 * Product Image: Displays the main image. This component also has the child components of Carousel, which is visible as the vertical image gallery on the left side of the main image, and ExpandedPhoto, which is a modal that displays a larger, zoomable image if the user clicks the main image.
 * Description: Located beneath the main image, this component contains the product tag line and description as well as social media share icons.
 
-![Product Overview](https://media.giphy.com/media/gPFA1CdXkhrIBzQsRi/giphy.gif)
-
 * StyleView: This is a styled component to group the following sub-components:
     * ProductName: This displays the product name, category, overall star rating, price and/or sales price.
     * SelectedStyle: This component is conditionally rendered in the event that a product has multiple designs/colors. It is visible as a series of circular images with the associated style names.
