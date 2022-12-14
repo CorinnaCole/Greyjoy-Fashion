@@ -1,5 +1,6 @@
-<h1> Greyjoy Fashions</h1>
 
+<h1> Greyjoy Fashions</h1>
+![greyjoy photo]('./public/Greyjoy_Still.png')
 <h2>Table of Contents</h2>
 
 -  [Project description](#project-description) 
