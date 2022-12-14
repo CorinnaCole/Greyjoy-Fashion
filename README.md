@@ -1,6 +1,6 @@
 
 <h1> Greyjoy Fashions</h1>
-![greyjoy photo]('./public/Greyjoy_Still.png')
+
 <h2>Table of Contents</h2>
 
 -  [Project description](#project-description) 
@@ -8,6 +8,8 @@
 -  [Application Structure](#-application-struture-)
 -  [Installation and Set-up](#installation-and-set-up)
 
+
+![greyjoy photo](./public/Greyjoy_Still.png)
 
 **<h2 style="text-decoration:underline;">Project Description</h2>**
 
